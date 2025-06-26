@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { getStudent } from "../api";
 
 function StudentDetails({ studentId, onClose }) {

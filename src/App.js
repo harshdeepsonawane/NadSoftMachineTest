@@ -58,7 +58,6 @@ function App() {
 
       <StudentList onEdit={handleEdit} onView={handleView} />
 
-      {/* Create/Edit Modal */}
       <Modal show={showFormModal} onHide={closeModals} size="lg" centered>
         <Modal.Header closeButton>
           <Modal.Title>
@@ -70,7 +69,6 @@ function App() {
         </Modal.Body>
       </Modal>
 
-      {/* View Modal */}
       <Modal show={showViewModal} onHide={closeModals} size="lg" centered>
         <Modal.Header closeButton>
           <Modal.Title>📄 Student Details</Modal.Title>
